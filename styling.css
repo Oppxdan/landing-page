@@ -1,13 +1,69 @@
+* {
+    background-color: #1F2937;
+}
+
 .footer {
     background-color: #1F2937;
     color: white;
 }
 
 .footer .header {
+    display: inline;
     margin-left: 140px;
-    margin-top: -10px;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
-.footer h2 {
-    display: flex;
+.footer .header2 {
+    align-items: center;
+    display: inline;
+    margin-left: 20px;
+    color: #E5E7EB;
+    font-size: 18px;
 }
+
+.header-links {
+    /* All links in box are 500px
+    away from the header logo*/
+    margin-left: 900px;
+    margin-top: -17px;
+    margin-right: 100px;
+}
+
+.left-footer {
+    display: block;
+    border-width: 300px;
+    margin-left: 140px;
+    margin-top: 200px;
+    margin-right: 800px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.placeholder {
+    display: inline;
+    float: right;
+    border-radius: 40px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-right: 180px;
+    padding-left: 180px;
+    margin-right: 100px;
+    margin-top: -260px;
+    background-color: black;
+}
+
+.sign-up {
+    background-color: green;
+    color:#E5E7EB;
+    padding: 3px;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
