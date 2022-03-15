@@ -1,0 +1,13 @@
+.footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.footer .header {
+    margin-left: 140px;
+    margin-top: -10px;
+}
+
+.footer h2 {
+    display: flex;
+}
