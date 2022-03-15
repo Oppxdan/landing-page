@@ -44,7 +44,7 @@
     color: #F9FAF8;
 }
 
-.placeholder {
+.footer .placeholder {
     display: inline;
     float: right;
     border-radius: 40px;
@@ -58,7 +58,7 @@
 }
 
 .sign-up {
-    background-color: green;
+    background-color: #3882F6;
     color:#E5E7EB;
     padding: 3px;
     width: fit-content;
@@ -67,3 +67,38 @@
     margin-top: 30px;
 }
 
+.information {
+    background-color: #E5E7EB;
+    margin-left: -20px;
+    margin-right: -8px;
+    /* Tiny space on the sides were the
+    background color of  #1F2937 [the
+    background color of the whole site]
+    instead of #E5E7EB, desired color.
+    Margins for information div to fix*/
+}
+
+.information .info-header {
+    font-size: 36px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    margin-top: 240px; 
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.info-placeholds {
+    background-color: #E5E7EB;
+    display: inline;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.information .placeholder {
+    background-color: #E5E7EB;
+    padding: 50px;
+    border: 7px solid #000;
+    margin-left: 100px;
+    display: flex;
+}
