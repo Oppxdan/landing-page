@@ -76,6 +76,7 @@
     background color of the whole site]
     instead of #E5E7EB, desired color.
     Margins for information div to fix*/
+    height: 500px;
 }
 
 .information .info-header {
@@ -83,22 +84,56 @@
     color: #1F2937;
     background-color: #E5E7EB;
     margin-top: 240px; 
-    padding-top: 10px;
+    padding-top: 30px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .info-placeholds {
     background-color: #E5E7EB;
-    display: inline;
+    margin-top: 80px;
     flex-direction: row;
     display: flex;
     align-items: center;
+    margin-left: 55px;
 }
 .information .placeholder {
     background-color: #E5E7EB;
     padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     border: 7px solid #000;
+    border-radius: 30px;
     margin-left: 100px;
     display: flex;
+}
+
+.subtext-group {
+    background-color: #E5E7EB;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    gap: 246px;
+    margin-top: -10px;
+
+}
+
+.image-subtext {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    color: #1F2937;
+    margin-bottom: 100px;
+}
+
+.quote-section {
+    background-color: gray;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.single-quote {
+    background-color: gray;
+    white-space: initial;
 }
